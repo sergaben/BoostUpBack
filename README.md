@@ -1,4 +1,14 @@
-# Backend
+# Back end part of the BoostUp application
 
-This is the part of the repository that contains the logic code behind the principal GUI.
-It has been developed using Scala with the help of the Play framework.
+It has been developed using:
+
+Scala | Play
+------|-----
+[Scala](https://www.scala-lang.org/) 2.12.2 | [Play](https://www.playframework.com/) 2.6.6
+
+# Endpoints
+
+## Work in progress
+
+Endpoints |  Info
+----------|--------
