@@ -2,9 +2,9 @@
 
 It has been developed using:
 
-Scala | Play
-------|-----
-[Scala](https://www.scala-lang.org/) 2.12.2 | [Play](https://www.playframework.com/) 2.6.6
+Main Language | Main Backend framework | Main datastore
+--------------|------------------------|---------------
+[Scala](https://www.scala-lang.org/) 2.12.2 | [Play](https://www.playframework.com/) 2.6.6 | [PostgreSQL](https://www.postgresql.org/)
 
 # Endpoints
 
