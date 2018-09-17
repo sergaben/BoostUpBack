@@ -1,0 +1,20 @@
+
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+# registration for kstudents
+POST    /signup                  controllers.SignUpController.signup
+# Log in users
+POST    /signin                   controllers.SignInController.signin
+# Log out user
+POST    /signout                  controllers.SignOutController.signout
+# Insert post into database
+POST    /posts              controllers.PostController.savePost
+# Get posts from databse as stream
+GET     /posts           controllers.PostController.getPosts(subject: String)
+# Getting subjects from database and converting them into scala objects
+GET     /subjects/all      controllers.SubjectController.getSubjectsNamesAsJson
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+
