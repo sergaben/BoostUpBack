@@ -31,6 +31,5 @@ class SubjectControllerTest(cc:ControllerComponents, subjectRepositoryImpl: Subj
       val result = call(controller.getSubjectsNamesAsJson(),FakeRequest(GET,"/getSubjectsNamesAsJson ").withHeaders((CONTENT_TYPE,"application/json")).withJsonBody(body))
       contentAsJson(result) mustBe body
     }
-
   }
 }
