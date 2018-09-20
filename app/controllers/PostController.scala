@@ -60,5 +60,5 @@ class PostController @Inject()(cc:ControllerComponents, postRepository: PostRepo
         Future.successful(Ok(Json.obj("status" -> "OK", "error" -> "POST_NOT_SAVED")))
     }
     postSavedAsResult
-}
+  }
 }
