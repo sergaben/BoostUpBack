@@ -9,7 +9,7 @@ class StudentSchema @Inject()(protected val dbConfigProvider:DatabaseConfigProvi
 
   import profile.api._
 
-  class StudentTable(tag:Tag) extends Table[Student](tag,"Ku_student"){
+  class StudentTable(tag:Tag) extends Table[Student](tag,"student"){
     def id = column[Option[Int]]("id_student",O.PrimaryKey,O.AutoInc)
     def nickname = column [String]("nickname")
     def email = column[String]("email")
