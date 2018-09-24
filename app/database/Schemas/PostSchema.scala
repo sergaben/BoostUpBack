@@ -1,14 +1,12 @@
 package database.Schemas
 
-import java.sql.{Date, Timestamp}
+import java.sql.Timestamp
 
 import javax.inject.Inject
 import models.Post
 import org.joda.time.DateTime
 import play.api.db.slick.{DatabaseConfigProvider, HasDatabaseConfigProvider}
 import slick.jdbc.JdbcProfile
-
-import scala.concurrent.ExecutionContext
 
 /**
   *
